@@ -24,20 +24,23 @@ class Caculadora():
         else:
             return False    
         
-
     def define_numero(self, numero):
         self.numero = numero
         pass
 
-    def soma(self):
-        pass
+    def soma(self, valor1,valor2):
+        self.acumulador = valor1 + valor2
+        return self.acumulador
 
-    def subtracao(a, b):
-        pass
+    def subtracao(self, valor1,valor2):
+        self.acumulador = valor1 - valor2
+        return self.acumulador
 
-    def multiplicacao(a, b):
-        pass
+    def multiplicacao(self, valor1, valor2):
+        self.acumulador = valor1 * valor2
+        return self.acumulador
 
-    def divisao(a, b):
-        pass
+    def divisao(self, valor1, valor2):
+        self.acumulador = valor1 / valor2
+        return self.acumulador
         
