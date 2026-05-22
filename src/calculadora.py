@@ -1,32 +1,8 @@
 import uteis as ut
 
-class Caculadora():
+class Calculadora():
     def __init__(self):
         self.acumulador = 0
-        self.operacao = None
-        self.numero = 0
-
-    def define_operador(self, operador):
-        self.operacao = operador
-
-        if self.operacao == '+':
-            self.soma()
-
-        elif self.operacao == '-':
-            self.subtracao()
-
-        elif self.operacao == '*':
-            self.multiplicacao()
-
-        elif self.operacao == '/':
-            self.divisao()
-
-        else:
-            return False    
-        
-    def define_numero(self, numero):
-        self.numero = numero
-        pass
 
     def soma(self, valor1,valor2):
         self.acumulador = valor1 + valor2

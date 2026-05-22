@@ -1,4 +1,7 @@
 import interface as app
 
+
 if __name__ == "__main__":
-    pass
+    calculadora = app.CalculadoraApp()
+    calculadora.executa()
+
